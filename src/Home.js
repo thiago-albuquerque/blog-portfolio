@@ -11,7 +11,7 @@ function Home() {
     <div>
       <header>
         <div>
-          <a href='https://www.linkedin.com/in/thiago-albuquerque-23a838222/' target='_blank' rel='noopener noreferer'> <FaLinkedin/> </a>
+          <a href='https://www.linkedin.com/in/progthiago/' target='_blank' rel='noopener noreferer'> <FaLinkedin/> </a>
           <a href='https://github.com/thiago-albuquerque' target='_blank' rel='noopener noreferer'> <FaGithub/> </a>
           <a href='https://www.instagram.com/garotoqprograma/?hl=pt-br' target='_blank' rel='noopener noreferer'> <FaInstagram/> </a>
         </div>
