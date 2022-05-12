@@ -256,15 +256,15 @@ header a:hover{
 .container-projetos h3{
     background-color: black;
     width: 100%;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
-    border-radius: 0 0 5px 5px;
     margin: 0;
     padding: 5px 0 5px 0;
 }
 .container-projetos h6{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
+    font-weight: lighter;
     padding: 4px;
     margin: 5px 0 5px 0;
 }

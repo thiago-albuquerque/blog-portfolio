@@ -98,27 +98,23 @@ function Home() {
             <h3>Electric Car Rentails</h3>
             <h6>Locação de carros elétricos. Feito com HTML, CSS e requisição HTTP Google Maps.</h6>
 
-            <a href='https://electric-car-rentals.vercel.app/' target='_blank' rel='noopener noreferer'>Ver em produção</a>
+            <a href='https://electric-car-rentals.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
           </article>
           
           <article className='item'>
-            <img className='img-item' src={ require('./Assets/gif-cafe.gif') } alt='cafe gif'/>
+            <img className='img-item' src={ require('./Assets/logo-cinemando.png') } alt='cafe gif'/>
 
-            <h3>Desenvolvendo...</h3>
-            <h6>
-            Próximo projeto...
-            </h6>
+            <h3>Cinemando</h3>
+            <h6>Este projeto é um site de informações sobre filmes utilizando a API The Movie Database (TMDB).</h6>
 
-            <a>Breve</a>
+            <a href='https://cinemando-trailer.netlify.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
           </article> 
 
           <article className='item'>
             <img className='img-item' src={ require('./Assets/gif-cafe.gif') } alt='cafe gif'/>
 
             <h3>Desenvolvendo...</h3>
-            <h6>
-            Próximo projeto...
-            </h6>
+            <h6>Próximo projeto...</h6>
 
             <a>Breve</a>
           </article>
