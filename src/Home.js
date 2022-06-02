@@ -93,30 +93,39 @@ function Home() {
 
         <div className='container-projetos'>
           <article className='item'>
-            <img className='img-item' src={ require('./Assets/logo-electric.png') } alt='electric car'/>
+            <img className='img-item' src={ require('./Assets/travel.png') } alt='cafe gif'/>
 
-            <h3>Electric Car Rentails</h3>
-            <h6>Locação de carros elétricos. Feito com HTML, CSS e requisição HTTP Google Maps.</h6>
+            <h3>Travel</h3>
+            <h6>Site de hotelaria.</h6>
 
-            <a href='https://electric-car-rentals.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
+            <a href='https://travelhotel.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
           </article>
           
           <article className='item'>
-            <img className='img-item' src={ require('./Assets/logo-cinemando.png') } alt='cafe gif'/>
+            <img className='img-item' src={ require('./Assets/cinemando.png') } alt='cafe gif'/>
 
             <h3>Cinemando</h3>
-            <h6>Este projeto é um site de informações sobre filmes utilizando a API The Movie Database (TMDB).</h6>
+            <h6>Site com informações de filmes.</h6>
 
             <a href='https://cinemando-trailer.netlify.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
           </article> 
 
           <article className='item'>
-            <img className='img-item' src={ require('./Assets/gif-cafe.gif') } alt='cafe gif'/>
+            <img className='img-item' src={ require('./Assets/electric.png') } alt='electric car'/>
 
-            <h3>Desenvolvendo...</h3>
-            <h6>Próximo projeto...</h6>
+            <h3>Electric</h3>
+            <h6> Site de aluguel de carros elétricos.</h6>
 
-            <a>Breve</a>
+            <a href='https://electric-car-rentals.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
+          </article>
+          
+          <article className='item'>
+            <img className='img-item' src={ require('./Assets/gif-cafe.gif') } alt='cafe'/>
+
+            <h3>Desenvolvendo</h3>
+            <h6>Em breve...</h6>
+
+            <a target={'_blank'} rel='noopener noreferer'>Breve...</a>
           </article>
         </div>
       </section>
