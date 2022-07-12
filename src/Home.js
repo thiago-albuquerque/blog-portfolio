@@ -11,9 +11,9 @@ function Home() {
     <div>
       <header>
         <div>
-          <a href='https://www.linkedin.com/in/progthiago/' target='_blank' rel='noopener noreferer'> <FaLinkedin/> </a>
-          <a href='https://github.com/thiago-albuquerque' target='_blank' rel='noopener noreferer'> <FaGithub/> </a>
-          <a href='https://www.instagram.com/garotoqprograma/?hl=pt-br' target='_blank' rel='noopener noreferer'> <FaInstagram/> </a>
+          <a href='https://www.linkedin.com/in/progthiago/' target='_blank' rel='noopener noreferrer'> <FaLinkedin/> </a>
+          <a href='https://github.com/thiago-albuquerque' target='_blank' rel='noopener noreferrer'> <FaGithub/> </a>
+          <a href='https://www.instagram.com/garotoqprograma/?hl=pt-br' target='_blank' rel='noopener noreferrer'> <FaInstagram/> </a>
         </div>
       </header>
 
@@ -98,7 +98,7 @@ function Home() {
             <h3>Travel</h3>
             <h6>Site de hotelaria.</h6>
 
-            <a href='https://travelhotel.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
+            <a href='https://travelhotel.vercel.app/' target={'_blank'} rel='noopener noreferrer'>Acessar</a>
           </article>
           
           <article className='item'>
@@ -107,7 +107,7 @@ function Home() {
             <h3>Cinemando</h3>
             <h6>Site com informações de filmes.</h6>
 
-            <a href='https://cinemando-trailer.netlify.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
+            <a href='https://cinemando-trailer.netlify.app/' target={'_blank'} rel='noopener noreferrer'>Acessar</a>
           </article> 
 
           <article className='item'>
@@ -116,7 +116,16 @@ function Home() {
             <h3>Electric</h3>
             <h6> Site de aluguel de carros elétricos.</h6>
 
-            <a href='https://electric-car-rentals.vercel.app/' target={'_blank'} rel='noopener noreferer'>Acessar</a>
+            <a href='https://electric-car-rentals.vercel.app/' target={'_blank'} rel='noopener noreferrer'>Acessar</a>
+          </article>
+          
+          <article className='item'>
+            <img className='img-item' src={ require('./Assets/minhas-tarefas.png') } alt='to do list'/>
+
+            <h3>Minhas Tarefas</h3>
+            <h6>Gerenciamento de tarefas.</h6>
+
+            <a href='https://minhastarefass.vercel.app/' target={'_blank'} rel='noopener noreferrer'>Acessar</a>
           </article>
           
           <article className='item'>
@@ -125,7 +134,7 @@ function Home() {
             <h3>Desenvolvendo</h3>
             <h6>Em breve...</h6>
 
-            <a target={'_blank'} rel='noopener noreferer'>Breve...</a>
+            <a target={'_blank'} rel='noopener noreferrer'>Breve...</a>
           </article>
         </div>
       </section>
