@@ -1,11 +1,16 @@
 # Blog-Portfolio
 
-Este é um site portfolio onde hospedo meus estudos e práticas de desenvolvimento front end.
+Este é um site portfolio onde hospedo meus estudos e práticas de desenvolvimento de software { Web | Mobile }.
 
 ## Tecnologias utilizadas:
 + HTML
 + CSS
 + Javascript
 + ReactJs
++ Styled Components
++ React Slick Carousel
++ React Vector Icons
 
-![blog-gif](https://user-images.githubusercontent.com/92190292/164914973-a4e52d26-9977-49bf-9dd4-3993d05f20f9.gif)
+### Demonstração:
+
+https://user-images.githubusercontent.com/92190292/185415469-658a5567-57ce-46e7-8587-6dbb34fa907c.mp4
