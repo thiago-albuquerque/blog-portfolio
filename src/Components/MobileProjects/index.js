@@ -11,8 +11,10 @@ import {
     MobileName,
     MobileItem,
     InfoContainer,
+    TitleContainer,
     Title,
     SubTitle,
+    ActionContainer,
     H4,
     H6,
     BtnGithub,
@@ -58,44 +60,54 @@ export default function MobileProjects(){
                 <Slider {...settings}>
 
                     <MobileItem>
-                        <InfoContainer>                            
-                            <Title>Cinemando App</Title>
-                            <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
-                            <H4>Tecnologias</H4>
-                            <H6>
-                                Expo | Javascript | Styled Components | 
-                                React Native | Hook | Navigation | FlatList | 
-                                Dados Offline | Axios | API TMDB
-                            </H6>
+                        <InfoContainer>
+                            <TitleContainer>
+                                <Title>Cinemando App</Title>
+                                <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
+                            </TitleContainer>
 
-                            <BtnGithub href='https://github.com/thiago-albuquerque/cinemandoApp' target={'_blank'} rel='noopener noreferrer'>
-                                <FaGithub/>
-                            </BtnGithub>
+                            <ActionContainer>
+                                <H4>Tecnologias</H4>
+                                <H6>
+                                    Expo | Javascript | Styled Components | 
+                                    React Native | Hook | Navigation | FlatList | 
+                                    Dados Offline | Axios | API TMDB
+                                </H6>
+
+                                <BtnGithub href='https://github.com/thiago-albuquerque/cinemandoApp' target={'_blank'} rel='noopener noreferrer'>
+                                    <FaGithub/>
+                                </BtnGithub>
+                            </ActionContainer>
                         </InfoContainer> 
                     </MobileItem>
                     
                     <MobileItem>
                         <InfoContainer>
-                            <Title>Short URL</Title>
-                            <SubTitle>Aplicativo encurtador de links</SubTitle>
-                            <H4>Tecnologias</H4>
-                            <H6>Javascript | Styled Components | React Native | Clipboard | API Cuttly</H6>
+                            <TitleContainer>
+                                <Title>Short URL</Title>
+                                <SubTitle>Aplicativo encurtador de links</SubTitle>
+                            </TitleContainer>
 
-                            <BtnGithub href='https://github.com/thiago-albuquerque/shortURL' target={'_blank'} rel='noopener noreferrer'>
-                                <FaGithub/>
-                            </BtnGithub>
+                            <ActionContainer>
+                                <H4>Tecnologias</H4>
+                                <H6>Javascript | Styled Components | React Native | Clipboard | API Cuttly</H6>
+
+                                <BtnGithub href='https://github.com/thiago-albuquerque/shortURL' target={'_blank'} rel='noopener noreferrer'>
+                                    <FaGithub/>
+                                </BtnGithub>
+                            </ActionContainer>
                         </InfoContainer> 
                     </MobileItem>
 
                     <MobileItem>
                         <InfoContainer>
-                            <Title style={{textAlign: 'center'}}>Breve</Title>
+                            <Title style={{textAlign: 'center', margin: 'auto'}}>Breve</Title>
                         </InfoContainer> 
                     </MobileItem>
 
                     <MobileItem>
                         <InfoContainer>
-                            <Title style={{textAlign: 'center'}}>Breve</Title>
+                            <Title style={{textAlign: 'center', margin: 'auto'}}>Breve</Title>
                         </InfoContainer> 
                     </MobileItem>
 

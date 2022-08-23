@@ -31,16 +31,19 @@ export const InfoContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-image: url(${img});
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    padding: 10px 0;
+    padding: 10px;
     margin: auto;
 `;
+export const TitleContainer = styled.div`
+    width: 100%;
+`;
 export const Title = styled.h1`
-    width: 90%;
+    width: 100%;
     font-size: min(35px, 5vw);
     color: #FAB341;
     line-height: 35px;
@@ -48,25 +51,28 @@ export const Title = styled.h1`
     margin: 0;
 `;
 export const SubTitle = styled.h6`
-    width: 90%;
+    width: 100%;
     font-size: min(14px, 3vw);
     font-weight: lighter;
-    margin: 0 0 8% 0;
+    margin: 0;
+`;
+export const ActionContainer = styled.div`
+    width: 100%;
 `;
 export const H4 = styled.h4`
-    width: 90%;
+    width: 100%;
     font-size: min(24px, 4.5vw);
     color: #D3C09F;
     margin: 0;
 `;
 export const H6 = styled.h6`
-    width: 90%;
+    width: 100%;
     font-size: min(14px, 3vw);
     font-weight: lighter;
-    margin: 0 0 8% 0;
+    margin: 5px 0 15px 0;
 `;
 export const BtnGithub = styled.a`
-    width: 90%;
+    width: 100%;
     font-size: min(30px, 5vw);
     color: #262626;
     display: flex;
