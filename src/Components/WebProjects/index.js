@@ -40,7 +40,7 @@ export default function WebProjects(){
 
                     <WebItem>
                         <InfoContainer>
-                            <Title>Cinemando</Title>
+                            <Title>Cinemando Web</Title>
                             <SubTitle>Site com informações sobre filmes</SubTitle>
                             <H4>Tecnologias</H4>
                             <H6>HTML | CSS | React | Axios | API TMDB</H6>

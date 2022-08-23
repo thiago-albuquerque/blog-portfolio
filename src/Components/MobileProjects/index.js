@@ -58,6 +58,23 @@ export default function MobileProjects(){
                 <Slider {...settings}>
 
                     <MobileItem>
+                        <InfoContainer>                            
+                            <Title>Cinemando App</Title>
+                            <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
+                            <H4>Tecnologias</H4>
+                            <H6>
+                                Expo | Javascript | Styled Components | 
+                                React Native | Hook | Navigation | FlatList | 
+                                Dados Offline | Axios | API TMDB
+                            </H6>
+
+                            <BtnGithub href='https://github.com/thiago-albuquerque/cinemandoApp' target={'_blank'} rel='noopener noreferrer'>
+                                <FaGithub/>
+                            </BtnGithub>
+                        </InfoContainer> 
+                    </MobileItem>
+                    
+                    <MobileItem>
                         <InfoContainer>
                             <Title>Short URL</Title>
                             <SubTitle>Aplicativo encurtador de links</SubTitle>
@@ -67,12 +84,6 @@ export default function MobileProjects(){
                             <BtnGithub href='https://github.com/thiago-albuquerque/shortURL' target={'_blank'} rel='noopener noreferrer'>
                                 <FaGithub/>
                             </BtnGithub>
-                        </InfoContainer> 
-                    </MobileItem>
-
-                    <MobileItem>
-                        <InfoContainer>
-                            <Title style={{textAlign: 'center'}}>Breve</Title>
                         </InfoContainer> 
                     </MobileItem>
 

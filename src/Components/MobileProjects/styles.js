@@ -36,19 +36,22 @@ export const InfoContainer = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    padding: 10px 0;
     margin: auto;
 `;
 export const Title = styled.h1`
     width: 90%;
     font-size: min(35px, 5vw);
     color: #FAB341;
+    line-height: 35px;
+    padding: 5px 0;
     margin: 0;
 `;
 export const SubTitle = styled.h6`
     width: 90%;
     font-size: min(14px, 3vw);
     font-weight: lighter;
-    margin: 0 0 50px 0;
+    margin: 0 0 8% 0;
 `;
 export const H4 = styled.h4`
     width: 90%;
@@ -60,7 +63,7 @@ export const H6 = styled.h6`
     width: 90%;
     font-size: min(14px, 3vw);
     font-weight: lighter;
-    margin: 0 0 50px 0;
+    margin: 0 0 8% 0;
 `;
 export const BtnGithub = styled.a`
     width: 90%;
