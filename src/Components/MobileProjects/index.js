@@ -80,6 +80,27 @@ export default function MobileProjects(){
                             </ActionContainer>
                         </InfoContainer> 
                     </MobileItem>
+
+                    <MobileItem>
+                        <InfoContainer>
+                            <TitleContainer>
+                                <Title>Maria Bonita</Title>
+                                <SubTitle>Aplicativo de moda feminina</SubTitle>
+                            </TitleContainer>
+
+                            <ActionContainer>
+                                <H4>Tecnologias</H4>
+                                <H6>
+                                    Expo | Javascript | Styled Components | 
+                                    React Native | Hook | Stack Navigator
+                                </H6>
+
+                                <BtnGithub href='https://github.com/thiago-albuquerque/mariabonita' target={'_blank'} rel='noopener noreferrer'>
+                                    <FaGithub/>
+                                </BtnGithub>
+                            </ActionContainer>
+                        </InfoContainer> 
+                    </MobileItem>
                     
                     <MobileItem>
                         <InfoContainer>
@@ -96,12 +117,6 @@ export default function MobileProjects(){
                                     <FaGithub/>
                                 </BtnGithub>
                             </ActionContainer>
-                        </InfoContainer> 
-                    </MobileItem>
-
-                    <MobileItem>
-                        <InfoContainer>
-                            <Title style={{textAlign: 'center', margin: 'auto'}}>Breve</Title>
                         </InfoContainer> 
                     </MobileItem>
 
