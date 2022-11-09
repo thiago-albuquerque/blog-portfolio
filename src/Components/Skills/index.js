@@ -38,8 +38,9 @@ export default function Skills() {
         <TextHardContainer>
           <HardH1>Hard Skills</HardH1>
           <HardP>
-            HTML | CSS | Styled Components | Sass | Javascript | ReactJs | React
-            Native | NextJs | i18next | Git | Figma | Canva
+            HTML | CSS | Styled Components | Sass | Scss | Javascript | ReactJs
+            | NextJs | React Native | Push Notification (FCM) | i18next | Git |
+            Figma | Canva
           </HardP>
         </TextHardContainer>
 

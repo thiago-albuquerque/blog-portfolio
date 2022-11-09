@@ -84,6 +84,58 @@ export default function MobileProjects() {
           </InfoContainer>
         </MobileItem>
 
+        {/* Cinemando */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Cinemando App</Title>
+              <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                Expo | Javascript | Styled Components | React Native | Hook |
+                Navigation | FlatList | Dados Offline | Axios | API TMDB
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/cinemandoApp"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
+        {/* Coin */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Coin</Title>
+              <SubTitle>Aplicativo com informações sobre criptomoedas</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                RN CLI | Javascript | Styled Components | React Native | Hooks |
+                FlatList | Modal | Push Notification (FCM) | Axios | API TMDB
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/coin.git"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
         {/* Interval */}
         <MobileItem>
           <InfoContainer>
@@ -107,32 +159,6 @@ export default function MobileProjects() {
                 rel="noopener noreferrer"
               >
                 <IoLogoGooglePlaystore />
-              </BtnGithub>
-            </ActionContainer>
-          </InfoContainer>
-        </MobileItem>
-
-        {/* Cinemando */}
-        <MobileItem>
-          <InfoContainer>
-            <TitleContainer>
-              <Title>Cinemando App</Title>
-              <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
-            </TitleContainer>
-
-            <ActionContainer>
-              <H4>Tecnologias</H4>
-              <H6>
-                Expo | Javascript | Styled Components | React Native | Hook |
-                Navigation | FlatList | Dados Offline | Axios | API TMDB
-              </H6>
-
-              <BtnGithub
-                href="https://github.com/thiago-albuquerque/cinemandoApp"
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
               </BtnGithub>
             </ActionContainer>
           </InfoContainer>
