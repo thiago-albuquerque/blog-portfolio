@@ -122,7 +122,8 @@ export default function MobileProjects() {
               <H4>Tecnologias</H4>
               <H6>
                 RN CLI | Javascript | Styled Components | React Native | Hooks |
-                FlatList | Modal | Push Notification (FCM) | Axios | API TMDB
+                FlatList | Modal | Push Notification (FCM) | Axios | API
+                CoinStats
               </H6>
 
               <BtnGithub
