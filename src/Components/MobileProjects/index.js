@@ -217,6 +217,33 @@ export default function MobileProjects() {
           </InfoContainer>
         </MobileItem>
 
+        {/* DevCam */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Dev Cam</Title>
+              <SubTitle>Aplicativo de captura de câmera</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                RN CLI | Javascript | Styled Components | React Native | React
+                Native Camera | React Native Camera Roll | React Native Image
+                Picker | React Native Vector Icons
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/devcam.git"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
         {/* Breve */}
         <MobileItem>
           <InfoContainer>
