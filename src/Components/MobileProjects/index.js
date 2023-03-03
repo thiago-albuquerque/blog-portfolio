@@ -84,7 +84,7 @@ export default function MobileProjects() {
           </InfoContainer>
         </MobileItem>
 
-        {/* Cinemando */}
+        {/* Cinemando App */}
         <MobileItem>
           <InfoContainer>
             <TitleContainer>
@@ -101,6 +101,34 @@ export default function MobileProjects() {
 
               <BtnGithub
                 href="https://github.com/thiago-albuquerque/cinemandoApp"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
+        {/* Chat Groups */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Chat Groups</Title>
+              <SubTitle>Aplicativo de grupos de chat</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                RN CLI | Javascript | Styled Components | React Native | Hook
+                (useState, useEffect, useMemo) | React Native Firebase Auth |
+                React Native Firebase Firestore | React Navigation (Native
+                Stack) | React Native Vector Icons
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/chatgroups.git"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
