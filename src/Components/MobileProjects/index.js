@@ -84,23 +84,26 @@ export default function MobileProjects() {
           </InfoContainer>
         </MobileItem>
 
-        {/* Cinemando App */}
+        {/* Saldo Azul */}
         <MobileItem>
           <InfoContainer>
             <TitleContainer>
-              <Title>Cinemando App</Title>
-              <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
+              <Title>Saldo Azul</Title>
+              <SubTitle>Aplicativo para controle de finanças</SubTitle>
             </TitleContainer>
 
             <ActionContainer>
               <H4>Tecnologias</H4>
               <H6>
-                Expo | Javascript | Styled Components | React Native | Hook |
-                Navigation | FlatList | Dados Offline | Axios | API TMDB
+                RN CLI | Javascript | Styled Components | React Native | Hook
+                (useState, useEffect, useMemo) | React Native Async Storage |
+                React Navigation (Native Stack && Bottom Tabs) | Axios |
+                Date-FNS | React Native Calendars | React Native Currency Input
+                | React Native Vector Icons
               </H6>
 
               <BtnGithub
-                href="https://github.com/thiago-albuquerque/cinemandoApp"
+                href="https://github.com/thiago-albuquerque/saldoazul.git"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -129,6 +132,59 @@ export default function MobileProjects() {
 
               <BtnGithub
                 href="https://github.com/thiago-albuquerque/chatgroups.git"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
+        {/* DevCam */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Dev Cam</Title>
+              <SubTitle>Aplicativo de captura de câmera</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                RN CLI | Javascript | Styled Components | React Native | React
+                Native Camera | React Native Camera Roll | React Native Image
+                Picker | React Native Vector Icons
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/devcam.git"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </BtnGithub>
+            </ActionContainer>
+          </InfoContainer>
+        </MobileItem>
+
+        {/* Cinemando App */}
+        <MobileItem>
+          <InfoContainer>
+            <TitleContainer>
+              <Title>Cinemando App</Title>
+              <SubTitle>Aplicativo com informações sobre filmes</SubTitle>
+            </TitleContainer>
+
+            <ActionContainer>
+              <H4>Tecnologias</H4>
+              <H6>
+                Expo | Javascript | Styled Components | React Native | Hook |
+                Navigation | FlatList | Dados Offline | Axios | API TMDB
+              </H6>
+
+              <BtnGithub
+                href="https://github.com/thiago-albuquerque/cinemandoApp"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -236,33 +292,6 @@ export default function MobileProjects() {
 
               <BtnGithub
                 href="https://github.com/thiago-albuquerque/shortURL"
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </BtnGithub>
-            </ActionContainer>
-          </InfoContainer>
-        </MobileItem>
-
-        {/* DevCam */}
-        <MobileItem>
-          <InfoContainer>
-            <TitleContainer>
-              <Title>Dev Cam</Title>
-              <SubTitle>Aplicativo de captura de câmera</SubTitle>
-            </TitleContainer>
-
-            <ActionContainer>
-              <H4>Tecnologias</H4>
-              <H6>
-                RN CLI | Javascript | Styled Components | React Native | React
-                Native Camera | React Native Camera Roll | React Native Image
-                Picker | React Native Vector Icons
-              </H6>
-
-              <BtnGithub
-                href="https://github.com/thiago-albuquerque/devcam.git"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
